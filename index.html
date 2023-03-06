@@ -1,32 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SQ R3 - лендинг интернет-магазина мебели</title>
+    <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Revalia&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
-    </div>
-    <!-- Конец -->
+    <main class="main">
 
-    <div class="main">
-        В данном блоке размещается верстка
-    </div>
+        <header class="header">
+            <p class="header__logo">SQ R3</p>
+            <nav class="header__navbar">
+                <a href="#" class="header__navbar-link">Home</a>
+                <a href="#about" class="header__navbar-link">About</a>
+                <a href="#service" class="header__navbar-link">Service</a>
+                <a href="#furniture" class="header__navbar-link">Furniture</a>
+            </nav>
+            <button class="order-btn">Order Now</button>
+            <form action="" class="header__search-form">
+                <img src="./img/footer_magnifuing-glass.svg" alt="icon" class="footer__magnifuing-glass">
+            </form>
+        </header>
+
+        <section class="intro">
+            <div class="intro__container">
+                <div class="intro__socials">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="./img/intro_social-icon-facebook.svg" alt="icon" class="intro__social-icon">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="./img/intro_social-icon-instageam.svg" alt="icon" class="intro__social-icon">
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="./img/intro_social-icon-twitter.svg" alt="icon" class="intro__social-icon">
+                    </a>
+                </div>
+                <div class="intro__info">
+                    <h1 class="intro__title">
+                        Enjoy your life in our luxurious furniture
+                    </h1>
+                    <p class="intro__text">
+                        If you are looking for a furniture then you have
+                        come to the right place.
+                    </p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="intro__statistics">
+                <div class="statistics__item">
+                    <div class="statistics__item-figure">120 k</div>
+                    <p class="statistics__item-label">Furniture Sale</p>
+                </div>
+
+                <div class="statistics__item">
+                    <div class="statistics__item-figure">98 k</div>
+                    <p class="statistics__item-label">Review &#11088 (4.5)</p>
+                </div>
+
+                <div class="statistics__item">
+                    <div class="statistics__item-figure">125</div>
+                    <p class="statistics__item-label">Furniture Categories</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about__title-block">
+                <h2 class="about__title">Learn about us</h2>
+                <div class="about__subtitle">
+                    <img src="./img/subtitle_line.png" alt="img" class="subtitle__line">
+                    <p class="subtitle__text">It's short title here</p>
+                </div>
+                <img src="./img/about_figure.png" alt="img" class="about__figure">
+            </div>
+
+            <div class="about__info">
+                <p class="about__info-text">
+                    Lorem Ipsum has been the industry's standard dummy text ever to since the 1500s, type and scrambled
+                    it to make a type specimen book. It has survived not only five centuries, but also the leap into
+                    electronic typesetting. type and scrambled it to make a type specimen book. It has survived not only
+                    five centuries, but also the leap into electronic typesetting
+                </p>
+                <button class="about__info-btn">More about us</button>
+                <div class="about__info-stores">
+                    <a href="https://www.amazon.com/" target="_blank">
+                        <img src="./img/about__info-store-icon-amazon.svg" alt="icon" class="about__info-store-icon">
+                    </a>
+                    <a href="https://www.alibaba.com/" target="_blank">
+                        <img src="./img/about__info-store-icon-alibaba.svg" alt="icon" class="about__info-store-icon">
+                    </a>
+                    <a href="#">
+                        <img src="./img/about__info-store-icon-store.svg" alt="icon" class="about__info-store-icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="service" id="service">
+            <h2 class="service__title">We provide that service</h2>
+            <p class="service__text">
+                It is a long established fact that a reader will be distracted by the service.
+            </p>
+            <div class="service__items">
+                <div class="service__item">
+                    <div class="service__item-wrapper">
+                        <img src="./img/service_item-icon-delivery.svg" alt="icon" class="service__item-icon">
+                        <h3 class="service__item-heading">Free Delivery</h3>
+                        <p class="service__item-text">
+                            It is a long established fact that a reader will be the service.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service__item">
+                    <div class="service__item-wrapper">
+                        <img src="./img/service_item-icon-guarantee.svg" alt="icon" class="service__item-icon">
+                        <h3 class="service__item-heading">100% Guarnatee</h3>
+                        <p class="service__item-text">
+                            It is a long established fact that a reader will be the service.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service__item">
+                    <div class="service__item-wrapper">
+                        <img src="./img/service_item-icon-quality.svg" alt="icon" class="service__item-icon">
+                        <h3 class="service__item-heading">Best Quality</h3>
+                        <p class="service__item-text">
+                            It is a long established fact that a reader will be the service.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="furniture" id="furniture">
+            <h2 class="furniture__title">Our Furniture</h2>
+            <p class="furniture__text">
+                It is a long established fact that a reader will be distracted by the service.
+            </p>
+
+            <div class="furniture__navigation">
+                <div class="navigation__input-form">
+                    <input type="text" class="furniture__input" placeholder="Search a furniture">
+                    <img src="./img/input_magnify-glass.svg" alt="" class="input__magnify-glass">
+                </div>
+                <nav class="furniture__navbar">
+                    <a href="#" class="navbar__link">All</a>
+                    <a href="#" class="navbar__link">Chair</a>
+                    <a href="#" class="navbar__link">Table</a>
+                    <a href="#" class="navbar__link">Bed</a>
+                    <a href="#" class="navbar__link">Sofa</a>
+                    <a href="#" class="navbar__link">Wardrobe</a>
+                    <a href="#" class="navbar__link">Almirah</a>
+                    <a href="#" class="navbar__link">Dimple</a>
+                    <a href="#" class="navbar__link">Rack</a>
+                    <a href="#" class="navbar__link">Stand</a>
+                </nav>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card__wrapper">
+                        <img src="./img/card_pic-01.jpeg" class="card__pic" alt="img"/>
+                        <div class="card__top-line">
+                            <h3 class="card__heading">Furniture Name</h3>
+                            <div class="card__price">$ 250</div>
+                        </div>
+                        <p class="card__description">
+                            It is a long estiabs lished fact that a reader will be the service.
+                        </p>
+                        <button class="furniture__order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__wrapper">
+                        <img src="./img/card_pic-02.jpeg" class="card__pic" alt="img"/>
+                        <div class="card__top-line">
+                            <h3 class="card__heading">Furniture Name</h3>
+                            <div class="card__price">$ 250</div>
+                        </div>
+                        <p class="card__description">
+                            It is a long estiabs lished fact that a reader will be the service.
+                        </p>
+                        <button class="furniture__order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__wrapper">
+                        <img src="./img/card_pic-03.jpeg" class="card__pic" alt="img"/>
+                        <div class="card__top-line">
+                            <h3 class="card__heading">Furniture Name</h3>
+                            <div class="card__price">$ 250</div>
+                        </div>
+                        <p class="card__description">
+                            It is a long estiabs lished fact that a reader will be the service.
+                        </p>
+                        <button class="furniture__order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__wrapper">
+                        <img src="./img/card_pic-04.jpeg" class="card__pic" alt="img"/>
+                        <div class="card__top-line">
+                            <h3 class="card__heading">Furniture Name</h3>
+                            <div class="card__price">$ 250</div>
+                        </div>
+                        <p class="card__description">
+                            It is a long estiabs lished fact that a reader will be the service.
+                        </p>
+                        <button class="furniture__order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__wrapper">
+                        <img src="./img/card_pic-05.jpeg" class="card__pic" alt="img"/>
+                        <div class="card__top-line">
+                            <h3 class="card__heading">Furniture Name</h3>
+                            <div class="card__price">$ 250</div>
+                        </div>
+                        <p class="card__description">
+                            It is a long estiabs lished fact that a reader will be the service.
+                        </p>
+                        <button class="furniture__order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__wrapper">
+                        <img src="./img/card_pic-06.jpeg" class="card__pic" alt="img"/>
+                        <div class="card__top-line">
+                            <h3 class="card__heading">Furniture Name</h3>
+                            <div class="card__price">$ 250</div>
+                        </div>
+                        <p class="card__description">
+                            It is a long estiabs lished fact that a reader will be the service.
+                        </p>
+                        <button class="furniture__order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__wrapper">
+                        <img src="./img/card_pic-07.jpeg" class="card__pic" alt="img"/>
+                        <div class="card__top-line">
+                            <h3 class="card__heading">Furniture Name</h3>
+                            <div class="card__price">$ 250</div>
+                        </div>
+                        <p class="card__description">
+                            It is a long estiabs lished fact that a reader will be the service.
+                        </p>
+                        <button class="furniture__order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__wrapper">
+                        <img src="./img/card_pic-08.jpeg" class="card__pic" alt="img"/>
+                        <div class="card__top-line">
+                            <h3 class="card__heading">Furniture Name</h3>
+                            <div class="card__price">$ 250</div>
+                        </div>
+                        <p class="card__description">
+                            It is a long estiabs lished fact that a reader will be the service.
+                        </p>
+                        <button class="furniture__order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <button class="cards__button">View All</button>
+        </section>
+
+        <section class="review">
+            <h2 class="review__title">We provide that service</h2>
+            <p class="review__text">
+                It is a long established fact that a reader will be distracted by the service.
+            </p>
+            <div class="reviews">
+                <div class="review__block">
+                    <img src="./img/review_photo-jone.png" alt="img" class="review__photo">
+                    <div class="review__info">
+                        <h3 class="review__author">Mr. Jone Ambrose</h3>
+                        <p class="review__date">20 - 07 - 21</p>
+                        <p class="review__description">
+                            <span>“</span>Lorem Ipsum has been the industry by standard dummy text ever to since the 1500s, it’s  type and scrambled it to make a type specimen book. It’s has survived not only five.<span>”</span>
+                        </p>
+                        <img src="./img/review_rating.svg" alt="icon" class="review__rating">
+                    </div>
+                </div>
+
+                <div class="review__block">
+                    <img src="./img/review_photo-mrs.png" alt="img" class="review__photo">
+                    <div class="review__info">
+                        <h3 class="review__author">Mr. Jone Ambrose</h3>
+                        <p class="review__date">20 - 07 - 21</p>
+                        <p class="review__description">
+                            <span>“</span>Lorem Ipsum has been the industry by standard dummy text ever to since the 1500s, it’s  type and scrambled it to make a type specimen book. It’s has survived not only five.<span>”</span>
+                        </p>
+                        <img src="./img/review_rating.svg" alt="icon" class="review__rating">
+                    </div>
+                </div>
+            </div>
+            <div class="review__slider">
+                <img src="./img/slider-icon-prev.svg" alt="icon" class="slider-icon prev">
+                <img src="./img/slider-icon-next.svg" alt="icon" class="slider-icon next">
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__contacts">
+                    <p class="footer__contacts-logo">SQ R3</p>
+                    <div class="footer__contacts-phone">
+                        <img src="./img/footer_number.svg" alt="icon" class="phone-icon">
+                        <p class="footer__number">+8801760-007083</p>
+                    </div>
+                    <div class="footer__contacts-email">
+                        <img src="./img/footer_email.svg" alt="icon" class="email-icon">
+                        <p class="footer__email">uiuxmdomith@gmail.com</p>
+                    </div>
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="./img/footer_social-icon-fb.svg" alt="icon" class="footer__social-icon">
+                        </a>
+                            <a href="https://www.instagram.com" target="_blank">
+                            <img src="./img/footer_social-icon-insta.svg" alt="icon" class="footer__social-icon">
+                        </a>
+                            <a href="https://www.twitter.com" target="_blank">
+                            <img src="./img/footer_social-icon-twitter.svg" alt="icon" class="footer__social-icon">
+                        </a>
+                            <a href="https://linked.com/" target="_blank">
+                            <img src="./img/footer_social-icon-in.svg" alt="icon" class="footer__social-icon">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="navigation-links usefull-links">
+                    <h3 class="heading usefull-links">Usefull Links</h3>
+                    <div class="links">
+                        <a href="#" class="link usefull-link">Home</a>
+                        <a href="#about" class="link usefull-link">About Us</a>
+                        <a href="#service" class="link usefull-link">Service</a>
+                        <a href="#furniture" class="link usefull-link">Furniture</a>
+                    </div>
+                </div>
+
+                <div class="navigation-links faq">
+                    <h3 class="heading faq">FAQ</h3>
+                    <div class="links">
+                        <a href="#" class="link faq">Lorem Ipsum Dolar</a>
+                        <a href="#" class="link faq">Lorem Ipsum Dolar</a>
+                        <a href="#" class="link faq">Lorem Ipsum Dolar</a>
+                        <a href="#" class="link faq">Lorem Ipsum Dolar</a>
+                    </div>
+                </div>
+
+                <div class="navigation-links newsletter">
+                    <h3 class="heading newsletter">Newsletter</h3>
+                    <div class="newsletter__subscribe">
+                        <div class="subscribe__form">
+                            <input type="text" class="subscribe__input" placeholder="Enter your email">
+                            <button class="subscribe__send-btn">Send</button>
+                        </div>
+                        <button class="newsletter__download-btn">Download App</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
 
 </body>
 </html>
