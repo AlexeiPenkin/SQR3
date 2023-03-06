@@ -56,6 +56,7 @@ body{
 }
 .header__navbar-link:hover {
     font-weight: 700;
+    color: #474747;
     cursor: pointer;
     text-decoration: underline;
     transform: scale(1.1);
@@ -80,8 +81,8 @@ body{
     font-weight: 700;
     font-size: 17px;
     background: transparent;
-    color: #373737;
-    border: 1px solid #373737;
+    color: #474747;
+    border: 1px solid #474747;
 }
 .footer__magnifuing-glass {
     margin-left: 56px;
@@ -251,8 +252,8 @@ body{
     font-weight: 700;
     font-size: 17px;
     background: transparent;
-    color: #373737;
-    border: 1px solid #373737;
+    color: #474747;
+    border: 1px solid #474747;
 }
 .about__info-stores {
     display: flex;
@@ -406,7 +407,8 @@ body{
     color: #686868;
 }
 .navbar__link:hover {
-    color: #000000;
+    font-weight: 700;
+    color: #474747;
     text-decoration: underline;
     font-size: 22px;
 }
@@ -481,9 +483,9 @@ body{
 .furniture__order-btn:hover {
     font-weight: 700;
     font-size: 14px;
-    background: #fff;   
-    color: #000;
-    border: 3px solid #000;
+    background: #fff;
+    color: #474747;
+    border: 3px solid #474747;
     transform: scale(1.05);
     color: #373737;
 }
@@ -501,9 +503,9 @@ body{
 .cards__button:hover {
     font-weight: 700;
     font-size: 16px;
-    background: #fff;   
-    color: #000;
-    border: 3px solid #000;
+    background: #fff;
+    color: #474747;
+    border: 3px solid #474747;
     transform: scale(1.1);
 }
 
@@ -736,7 +738,7 @@ body{
 }
 .subscribe__send-btn:hover {
     font-weight: 700;
-    background: #373737;
+    background: transparent;
     color: #fff;
     border: 1px solid #fff;
     transform: scale(1.2);
@@ -754,7 +756,7 @@ body{
     transition: transform 0.2s ease-in;
 }
 .newsletter__download-btn:hover {
-    background: #373737;
+    background: transparent;
     color: #fff;
     border: 1px solid #fff;
     transform: scale(1.2);
